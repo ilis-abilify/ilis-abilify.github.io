@@ -9,7 +9,9 @@
 <body style="background-color: black;">
     <h1 style="color: white;text-align: center;">Redirecting to Abilify Network Forum...</h1>
     <script>
-        window.location.href.replace("https://abilify.network/forum"+window.location.href.substring(window.location.origin.length));
+        const winPath = window.location.href.substring(window.location.origin.length);
+        alert(winPath);
+        window.location.replace("https://abilify.network/forum"+winPath);
     </script>
 </body>
 </html>
