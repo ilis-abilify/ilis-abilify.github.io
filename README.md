@@ -1,2 +1,1 @@
-This is my main branch in which I publish my website.
-The tests are in the branch This-is-my-site.
+This website is made for testing javascript code for abilify.network
